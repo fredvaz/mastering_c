@@ -1,6 +1,11 @@
 
 
 
+// Adding a first feature: git push from user B
+int add(int x, int y)
+{
+    return x + y;
+}
 
 
 // Added by user A
