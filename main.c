@@ -28,3 +28,9 @@ int main()
 
     return 0;
 }
+
+// Adding a fourth feature: git push from user B
+int div(int x, int y)
+{
+    return x / y;
+}
