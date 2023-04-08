@@ -19,6 +19,12 @@ int mult(int x, int y)
     return x * y;
 }
 
+// Adding a fifth feature: git push from user A
+int scale(int x, int s)
+{
+    return x * s;
+}
+
 // Added by user A
 int main()
 {
