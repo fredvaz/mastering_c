@@ -1,17 +1,4 @@
 
-int mult(int x, int y);
-
-// Adding a first feature: git push from user B
-int add(int x, int y)
-{
-    return x + y;
-}
-
-// Adding a second feature when the third is on the remote: git push from user A
-int sub(int x, int y)
-{
-    return x - y;
-}
 
 // Added by user A
 int main()
@@ -21,10 +8,4 @@ int main()
     printf("Hello World!");
 
     return 0;
-}
-
-// Adding a third feature: git push from user B
-int mult(int x, int y)
-{
-    return x * y;
 }
