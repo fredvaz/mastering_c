@@ -7,6 +7,12 @@ int add(int x, int y)
     return x + y;
 }
 
+// Adding a second feature when the third is on the remote: git push from user A
+int sub(int x, int y)
+{
+    return x - y;
+}
+
 // Adding a third feature: git push from user B
 int mult(int x, int y)
 {
