@@ -31,6 +31,12 @@ float check(float x, float y)
     return x > y ? x : y;
 }
 
+// Adding a feature to become one commit ahead from the main branch
+bool check(bool x, bool y)
+{
+    return x == y ? x : y;
+}
+
 // Added by user A
 int main()
 {
