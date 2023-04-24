@@ -25,6 +25,12 @@ int scale(int x, int s)
     return x * s;
 }
 
+// Adding a feature: git push from user B to dev_test branch
+float check(float x, float y)
+{
+    return x > y ? x : y;
+}
+
 // Added by user A
 int main()
 {
