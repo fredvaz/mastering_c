@@ -44,6 +44,8 @@ int main()
     // First git push from user A
     printf("Hello World!");
 
+    check(1.0, 2.0);
+
     return 0;
 }
 
