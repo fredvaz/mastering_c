@@ -52,3 +52,8 @@ int div(int x, int y)
 {
     return x / y;
 }
+
+// git push from user B to dev_test branch
+void foo()
+{
+}
