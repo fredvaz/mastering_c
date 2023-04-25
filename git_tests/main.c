@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+//
 
 int mult(int x, int y);
 
@@ -32,17 +36,17 @@ float check(float x, float y)
 }
 
 // Adding a feature to become one commit ahead from the main branch
-bool check(bool x, bool y)
-{
-    return x == y ? x : y;
-}
+// bool check(bool x, bool y)
+// {
+//     return x == y ? x : y;
+// }
 
 // Added by user A
 int main()
 {
 
     // First git push from user A
-    printf("Hello World!");
+    printf("Hello World!\n");
 
     check(1.0, 2.0);
 
