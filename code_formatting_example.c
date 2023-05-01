@@ -82,6 +82,17 @@ bool example( example_t * ptr, const bool state )
     return state;
 }
 
+// Auto fomatting On Type
+void test( int * test, int * test2 )
+{
+
+    if ( test > 0 )
+    {
+        test2 = 0;
+    }
+
+}
+
 
 int main()
 {
